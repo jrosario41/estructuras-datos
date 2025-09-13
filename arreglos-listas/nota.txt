@@ -1,0 +1,6 @@
+la aplicacion la logica de de negocio se programa en javascript  se programa la logica en html sibe como intermediario en el usuario y la aplicacion controida en javascript un programa en genera se divide en cuatro parte 1 connecciones y estructura logica. 2 en trada de datos. 3 procesamiento logico. 4 salida de datos o resultado.          
+javascript soporta la programacion funcionar,la programacion modular, programacion modulada a objeto. 
+En javascript se puede ultilizar funciones nativas y funciones definidas por el programador o programadora.
+Un funcion nativa es aquella que viene integrada en el lenguaje de programacion y solo necesita ser invocada mas no declarada.
+Un funcion definida por el programador es aquella que si necesita ser declarada y programada para luego ser invocada.    
+   
