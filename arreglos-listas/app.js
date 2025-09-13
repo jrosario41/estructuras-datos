@@ -22,3 +22,8 @@ function Btnmodificar (palabra){
     
 }
 
+
+const Btnagregar = document.getElementById("btnagregar");
+const Btnagregar = document.getElementById("btneliminar");
+const Btnagregar = document.getElementById("btnmostrar");
+const Btnagregar = document.getElementById("btnmodificar");
