@@ -1,3 +1,4 @@
+const resultado = document.getElementById("txtresultado");
 function mensaje(texto){
     console.log(texto);
     alert(texto);
@@ -6,24 +7,35 @@ function mensaje(texto){
 
 }
 
-function Btnagregar (palabra){
+function agregar (palabra){
+     resultado.textContent = palabra;
+}
+
+function eliminar (palabra){
     
 }
 
-function Btneliminar (palabra){
+function mostrar (palabra){
     
 }
 
-function Btnmostrar (palabra){
-    
-}
-
-function Btnmodificar (palabra){
+function modificar (palabra){
     
 }
 
 
 const Btnagregar = document.getElementById("btnagregar");
-const Btnagregar = document.getElementById("btneliminar");
-const Btnagregar = document.getElementById("btnmostrar");
-const Btnagregar = document.getElementById("btnmodificar");
+
+const Btneliminar = document.getElementById("btneliminar");
+
+const Btnmostrar = document.getElementById("btnmostrar");
+
+const Btnmodificar = document.getElementById("btnmodificar");
+
+Btnagregar.addeventlistener("click",agragar("klk"));
+
+Btnelimiar.addeventlistener("click",eliminar("klk"));
+
+Btnmostrar.addeventlistener("click",mostrar("klk"));
+
+Btnmodificar.addeventlistener("click",modificar("klk"));
